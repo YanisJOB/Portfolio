@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'epicgantregular';
+    src: url('epicgant_personal_use-webfont.woff2') format('woff2'),
+         url('epicgant_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F2D1B5;
+    min-height: 100vh;
+}
+
+.base{
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    border: 1px;
+}
+
+.PlusInfos{
+    padding: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #808080;
+    background-color: #F6DDCC;
+}
+
+.PlusInfos:hover{
+    background-color: #E8DAEF;
+}
+
+.ImageDiv a{
+    margin: 5px;
+}
+
+.ImageDiv{
+    padding: 5px;
+    text-align: center;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#808080;
+    border-width: 2x;
+    border-color: #808080;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#Bouton {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Texte{
+    font-size: x-large;
+    text-align: center;
+}
+
+a{
+    font-size: x-large;
+}
